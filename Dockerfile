@@ -1,7 +1,7 @@
 FROM maven
 
-COPY hello-world /home/hello-world
-WORKDIR /home/hello-world/
+COPY hello-world-master /home/hello-world-master
+WORKDIR /home/hello-world-master/
 
 EXPOSE 8080
 
