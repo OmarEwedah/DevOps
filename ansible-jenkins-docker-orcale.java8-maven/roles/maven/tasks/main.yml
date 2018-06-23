@@ -1,0 +1,5 @@
+---
+- name: Update repositories cache and install "maven" package
+  apt:
+    name: maven
+    update_cache: yes
